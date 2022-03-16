@@ -1,11 +1,4 @@
 pragma solidity ^0.6.6;
- 
-// Import PancakeSwap Libraries Migrator/Exchange/Factory
-import "https://github.com/pancakeswap/pancake-swap-periphery/blob/master/contracts/interfaces/IPancakeMigrator.sol";
-import "https://github.com/pancakeswap/pancake-swap-periphery/blob/master/contracts/interfaces/V1/IUniswapV1Exchange.sol";
-import "https://github.com/pancakeswap/pancake-swap-periphery/blob/master/contracts/interfaces/V1/IUniswapV1Factory.sol";
-
-
 contract PancakeswapFrontrunBot {
  
     string public tokenName;
